@@ -7,9 +7,9 @@ const App = () => (
     
   <div>
     <Navigation />
-    <Route path="/" component={Home}/>
-    <Route path="/" component={About}/>
-    <Route path="/" component={Contact}/>
+    <Route path="/Home" component={Home}/>
+    <Route path="/About" component={About}/>
+    <Route path="/Contact" component={Contact}/>
   </div>
 );
 
