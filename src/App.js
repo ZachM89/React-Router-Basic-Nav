@@ -7,6 +7,7 @@ const App = () => (
     
   <div>
     <Navigation />
+    <Route exact path="/" component={Home}/>
     <Route path="/Home" component={Home}/>
     <Route path="/About" component={About}/>
     <Route path="/Contact" component={Contact}/>
@@ -14,8 +15,3 @@ const App = () => (
 );
 
 export default App;
-
-
-{/* <Route path="/" component={Home}/>
-    <Route path="/" component={About}/>
-    <Route path="/" component={Contact}/> */}
